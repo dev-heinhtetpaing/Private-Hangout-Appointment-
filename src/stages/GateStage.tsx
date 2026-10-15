@@ -12,7 +12,8 @@ type Props = {
 }
 
 export function GateStage({ initialName, initialDob, onSubmit }: Props) {
-  const [name, setName] = useState(initialName || '')
+  // const [name, setName] = useState(initialName || '')
+  const name = initialName
   const [dob, setDob] = useState(initialDob)
   const trimmed = name.trim()
   const dobReady = /^\d{4}-\d{2}-\d{2}$/.test(dob)
