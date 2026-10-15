@@ -1,0 +1,10 @@
+Animated Fluent Emojis
+Copyright (c) Microsoft Corporation
+Licensed under the MIT License.
+
+Packaged by Tarikul Islam Anik
+https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis
+
+Hero expressions and hearts were converted from animated PNG to WebP.
+Date-type icons that exist only as a single frame in this set were exported as still WebP.
+Replace the files in this folder and update src/stickers.js to swap the set.
